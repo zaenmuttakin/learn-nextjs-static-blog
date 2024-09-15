@@ -13,7 +13,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Static Blog",
+  title: "Zaen Blog",
   description: "Static blog built with Next.js",
 };
 
@@ -23,6 +23,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header className="font-[family-name:var(--font-geist-sans)]">
+          <h1 className="text-3xl font-bold text-center pt-8 pb-10">
+            Zaen Blog
+          </h1>
+        </header>
         {children}
       </body>
     </html>
