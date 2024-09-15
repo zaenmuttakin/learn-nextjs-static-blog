@@ -13,7 +13,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "My Next.js App",
+  title: "Static Blog",
   description: "Static blog built with Next.js",
 };
 
